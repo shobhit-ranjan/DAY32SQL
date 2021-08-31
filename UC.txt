@@ -21,4 +21,41 @@ mysql> show databases;
 
 mysql> use payroll_services;
 Database changed
+
+
+
+UC TWO
+
+
+
+mysql> create Table employee_payroll(empid int(20),empname varchar(80),empsalary int(30),dateofjoin date);
+Query OK, 0 rows affected, 2 warnings (0.08 sec)
+
+mysql> select * FROM employee_payroll;
+Empty set (0.01 sec)
+
+mysql> show Tables;
++----------------------------+
+| Tables_in_payroll_services |
++----------------------------+
+| employee_payroll           |
++----------------------------+
+1 row in set (0.01 sec)
+
 mysql>
+mysql>
+
+
+
+UC THREE (AFTER CONNECTING IT FROM JAVA AND PERFROMING OPERATION FROM THERE)
+
+
+mysql> select * FROM employee_payroll;
++-------+---------------+-----------+------------+
+| empid | empname       | empsalary | dateofjoin |
++-------+---------------+-----------+------------+
+|     1 | ShobhitRAnjan |      2400 | NULL       |
++-------+---------------+-----------+------------+
+1 row in set (0.00 sec)
+
+ 
