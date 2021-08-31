@@ -58,4 +58,17 @@ mysql> select * FROM employee_payroll;
 +-------+---------------+-----------+------------+
 1 row in set (0.00 sec)
 
+
+
+
+UC FOUR
+
+mysql> select * FROM employee_payroll;
++-------+---------------+-----------+------------+
+| empid | empname       | empsalary | dateofjoin |
++-------+---------------+-----------+------------+
+|     1 | ShobhitRAnjan |      2400 | NULL       |
++-------+---------------+-----------+------------+
+1 row in set (0.00 sec)
+
  
