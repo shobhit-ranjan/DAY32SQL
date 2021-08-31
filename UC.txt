@@ -1,0 +1,23 @@
+UC ONE
+
+mysql> create database payroll_services;
+Query OK, 1 row affected (0.02 sec)
+
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| emp_payroll        |
+| information_schema |
+| mysql              |
+| payroll_services   |
+| performance_schema |
+| sakila             |
+| sys                |
+| world              |
++--------------------+
+8 rows in set (0.01 sec)
+
+mysql> use payroll_services;
+Database changed
+mysql>
