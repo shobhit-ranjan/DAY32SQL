@@ -1,7 +1,8 @@
 UC ONE
 
+
 mysql> create database payroll_services;
-Query OK, 1 row affected (0.02 sec)
+ Query OK, 1 row affected (0.02 sec)
 
 mysql> show databases;
 +--------------------+
